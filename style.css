@@ -34,7 +34,7 @@ a{
     text-size-adjust: 1rem;
 }
 .heading-content_right a:hover{
-    color: rgb(18, 133, 8);
+    color: rgb(57, 227, 246);
     transition: 0.2s;
     animation-duration: 4s;
 
@@ -49,10 +49,11 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(0deg, #FFFFFF, #9AA4EC);
-    background-color: #9AA4EC;
-    /* box-shadow: 3px 3px 3px gray; */
-    padding-bottom: 1rem;
+    /* background-image: linear-gradient(0deg, #FFFFFF, #9AA4EC);
+    background-color: #9AA4EC; */
+    background: rgb(238,255,200);
+background: linear-gradient(90deg, rgba(238,255,200,1) 0%, rgba(141,255,247,1) 100%);
+padding-bottom: 1rem;
 }
 
 .landing-src_img{
@@ -171,8 +172,9 @@ a{
     width: 100%;
     display: flex;
     height: 95vh;
-    /* background-color:#FFFFFF;  */
-    background-image: linear-gradient(0deg, #9AA4EC,#FFFFFF);
+    background: rgb(238,255,200);
+background: linear-gradient(90deg, rgba(238,255,200,1) 0%, rgba(141,255,247,1) 100%);
+/* background-image: linear-gradient(0deg, #9AA4EC,#FFFFFF); */
     align-items: center;
     justify-content: center;
     gap: 70px;
@@ -278,8 +280,9 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #9AA4EC; */
-    background-image: linear-gradient(0deg,#FFFFFF, #9AA4EC);
+    background: rgb(238,255,200);
+background: linear-gradient(90deg, rgba(238,255,200,1) 0%, rgba(141,255,247,1) 100%);
+/* background-image: linear-gradient(0deg,#FFFFFF, #9AA4EC); */
 }
 .Skills-body{
     width: 100%;
@@ -344,8 +347,11 @@ p{
 
 #education {
     /* height: 100vh; */
-    background-color: white;
-    padding-top: 3rem;
+    /* background-color: white; */
+    
+    background: rgb(238,255,200);
+background: linear-gradient(90deg, rgba(238,255,200,1) 0%, rgba(141,255,247,1) 100%);
+padding-top: 3rem;
     padding-bottom: 3rem;
     width: 100%;
     display: flex;
