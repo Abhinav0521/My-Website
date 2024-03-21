@@ -19,7 +19,7 @@
     background-color: white;
     border-radius: 20px;
     border: 1px solid gray;
-    box-shadow: 0px 0px 5px 5px yellow;
+    box-shadow: 0px 0px 5px 5px rgb(51, 253, 216);
 }
 
 .topnav a {
@@ -38,7 +38,6 @@
 }
 
 .topnav a {
-    /* color: white; */
     color: #6474E5;
 }
 
@@ -89,11 +88,6 @@
     align-items: center;
     justify-content: center;
     background-image: url("asset/image.png");
-    /* background: linear-gradient(0deg, rgba(238, 255, 200, 1) 20%, rgba(141, 255, 247, 1) 80%); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-blend-mode: color-burn; */
-    /* background-color: rgb(181, 239, 252); */
     padding-bottom: 1rem;
     border-bottom: dashed 2px grey;
 }
@@ -190,6 +184,7 @@
 
 @media only screen and (max-width: 600px) {
     #landing {
+        padding-top: 2rem;
         height: auto;
         gap: 3rem;
         flex-direction: column-reverse;
@@ -234,8 +229,6 @@
     height: 100vh;
     background-color: white;
     background-image: url("asset/image.png");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     align-items: center;
     justify-content: center;
     gap: 70px;
@@ -256,7 +249,6 @@
     border-radius: 20px;
     border: 1px solid;
     box-shadow: 1rem 1rem 0px yellow;
-
 }
 
 .About-box-img:hover {
@@ -276,11 +268,12 @@
 }
 
 .About-box-right-header {
-    box-shadow: 10px 10px 0px yellow;
+    box-shadow: 10px 10px 0px rgb(84, 148, 252);
     border: 1px solid grey;
     padding: 10px;
     border-radius: 10px 0px 10px 0px;
     background: white;
+    width: fit-content;
 }
 
 .About-box-right-body {
@@ -314,7 +307,7 @@ p {
     }
 
     .About-box-img:hover {
-        width: 50%;
+        width: 100%;
         border-radius: 7px;
         transition-duration: 500ms;
     }
@@ -327,7 +320,7 @@ p {
     }
 
     .About-box-right-header {
-        width: 100%;
+        width: fit-content;
         display: flex;
         justify-content: center;
         color: rgb(84, 148, 252);
@@ -355,14 +348,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: rgb(238, 255, 200); */
-    /* background-color: white; */
-    /* background: linear-gradient(90deg, rgba(238, 255, 200, 1) 0%, rgba(141, 255, 247, 1) 100%); */
     background-image: url("asset/image.png");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     background-blend-mode: color-burn;
-    /* background-color: rgb(202, 245, 255); */
     padding-bottom: 3rem;
     border-bottom: dashed 2px grey;
 }
@@ -376,7 +363,6 @@ p {
 
 .Skills-header {
     padding-top: 3rem;
-    /* padding-bottom: 10px; */
     display: flex;
     justify-content: center;
     width: 100%;
@@ -388,13 +374,12 @@ p {
 .Skills-header h1 {
     background-color: white;
     border-radius: 32px 1px 32px 1px;
-    box-shadow: 8px 8px 0px 5px yellow;
+    box-shadow: 8px 8px 0px 5px rgb(255 107 0);
     padding: 10px;
     border: solid 1px grey;
 }
 
 .Skills-items {
-    /* width: 90%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,12 +395,11 @@ p {
     border: 1px solid grey;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 9px 9px 0px rgb(84, 148, 252);
+    box-shadow: 9px 9px 0px 4px rgb(84, 148, 252);
 }
 
 .skills-box:hover {
     box-shadow: 0px 0px 0px rgb(87, 87, 87);
-    /* background-color:rgb(51, 253, 216) ; */
     transition: .4s;
     transform: scale(1.15);
 }
@@ -449,8 +433,6 @@ p {
 #education {
     background-color: white;
     background-image: url("asset/image.png");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     padding-top: 4rem;
     padding-bottom: 4rem;
     width: 100%;
@@ -465,8 +447,7 @@ fieldset {
     width: 60%;
     border-radius: 20px;
     background-color: white;
-    border: solid 10px #9AA4EC;
-    /* border: solid 10px yellow; */
+    border: solid 10px rgb(51, 253, 216);
 }
 
 legend {
